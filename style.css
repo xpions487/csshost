@@ -5,17 +5,17 @@
   font-style: normal;
 }
 
-#cont > input {
+input {
   display: none;
 }
 
-#cont > label, p, a {
+label, p, a {
   font-family: 'BBTreeGB';
   font-size: 20pt;
   color: #3a3a3a;
 }
 
-#cont > label:hover{
+label:hover{
   color: #fff;
 }
 
@@ -53,7 +53,7 @@
   text-align: center;
 }
 
-#cont > input:checked + .source {
+input:checked + .source {
   width: 816px;
   height: 364px;
   padding-top: 10px;
