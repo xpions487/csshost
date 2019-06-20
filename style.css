@@ -9,7 +9,7 @@ input {
   display: none;
 }
 
-label, p, a {
+label {
   font-family: 'BBTreeGB';
   font-size: 20pt;
   color: #3a3a3a;
