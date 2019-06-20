@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'BBTreeGB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input {
+  display: none;
+}
+
+label, p, a {
+  font-family: 'BBTreeGB';
+  font-size: 20pt;
+  color: #3a3a3a;
+}
+
+label:hover{
+  color: #fff;
+}
+
+.vc {
+  -webkit-transition: background-color 0.1s, color 0.1s;
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.extender {
+  width: 816px;
+  height: 40px;
+  background-image: url('https://i.imgur.com/7YG7qMj.jpg');
+  position: relative;
+}
+
+.end {
+  background-color: #ffa4a7;
+  width: 816px;
+  height: 80px;
+  position: relative;
+}
+
+.source {
+  -webkit-transition: height .5s ease;
+  height: 0;
+  overflow: hidden;
+  width: 816px;
+  background: #ffa4a7;
+  text-align: center;
+}
+
+input:checked + .source {
+  width: 816px;
+  height: 364px;
+  padding-top: 10px;
+}
